@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: helvetica;
+    background-color: lightseagreen;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: oldlace;
+}
