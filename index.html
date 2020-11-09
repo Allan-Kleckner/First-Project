@@ -1,30 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
-    <script defer src="./js/script.js"></script>
-    <title>Dev Skills Lab</title>
-    <link rel="stylesheet" href="./css/style.css" />
-    
-
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA==" crossorigin="anonymous" />
+  <link href="css/style.css" rel="stylesheet" />
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script defer src="./js/script.js"></script>
+  <title>First Project</title>
 </head>
 <body>
-   <main>
-       <h1>Market Information</h1>
-        
-            <input type="text" name="Ticker Symbol" id="">
-            <button>Retrieve Data</button>
-            <ul>
-                <li>Company Name</li>
-                <li>Current Price</li>
-                <li>Yesterdays Closing Price</li>
-
-            </ul>
-
-   </main>    
+  <main>
+    <h1>Market Information</h1> 
+      <input type="text" id="ticker" name="Stock Ticker Symbol" value = "" placeholder="Ticker Symbol" required
+    minlength="1" maxlength="8" size="10">
+      <button id= "retrieveData" type= "button" >Retrieve Data</button> 
+      <h3>Stock Information</h3>
+      <!DOCTYPE html>
+      <html lang="en">
+      <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+        <script defer src="./js/script.js"></script>
+      </head>
+      <body>
+        <div>
+          <p>Close</p>
+          <p id="close"></p>
+          <p>Date</p>
+          <p id="date"></p>
+          <p>High</p>
+          <p id="high"></p>
+          <p>Low</p>
+          <p id="low"></p>
+          <p>Open</p>
+          <p id="open"></p>
+        </div>
+      </body>
+      </html>
+  </main>
+  <h4>AAPL-Apple Inc., ABBV-AbbVie Inc., ABT-Abbott Labs, ACN-Accenture, ADBE-Adobe Inc., AIG, ALL-Allstate, AMGN-Amgen,    AMT-American Tower, AMZN-Amazon, AXP-Amex, BA-Boeing, BAC-Bank of A, BIIB-Biogen, BK-Bank of NY Mellon, BKNG-Booking Holdings, BLK-BlackRock, BMY-Bristol-Myers Squibb, BRK.B-Berkshire Hathaway, C-Citigroup, CAT-Caterpillar, CHTR-Charter Communications, CL-Colgate-Palmolive, CMCSA-Comcast, COF-Cap. One Fin., COP-ConocoPhillips, COST-Costco, CRM-salesforce,
+  CSCO-Cisco, CVS, CVX-Chevron, DD-DuPont, DHR-Danaher, DIS-Disney, DOW, DUK-Duke Energy, EMR	Emerson, EXC-Exelon, F-Ford,  FB-Facebook, FDX-FedEx, GD-General Dynamics, GE, GILD-Gilead Sciences, GM, GOOG	Alphabet-C, GOOGL-Alphabet-A, GS-GoldmanSachs, HD-Home Depot, HON-Honeywell, IBM, INTC-Intel, JNJ-Johnson & Johnson, JPM-JPMorgan Chase, KHC-Kraft Heinz, KMI-Kinder Morgan, KO-Coca-Cola, LLY-Eli Lilly, LMT-Lockheed Martin, LOW-Lowe's, MA-MasterCard, MCD-McDonald's,    MDLZ-Mondelēz Int'l, MDT-Medtronic, MET-MetLife, MMM-3M, MO-Altria, MRK-Merck, MS-Morgan Stanley, MSFT-Microsoft, NEE-NextEra Energy, NFLX-Netflix, NKE-Nike, NVDA-Nvidia, ORCL-Oracle, OXY-Occidental Petroleum, PEP-PepsiCo, PFE-Pfizer,  PG-Procter & Gamble, PM-Philip Morris Int'l, PYPL-PayPal, QCOM-Qualcomm, RTX-Raytheon, SBUX-Starbucks, SLB-Schlumberger,  SO-Southern Comp., SPG-Simon Property Group, T-AT&T, TGT-Target, TMO-Thermo Fisher Scientific, TXN-Texas Instruments, UNH-UnitedHealth, UNP-Union Pacific, UPS, USB-U.S. Bancorp, V-Visa, VZ-Verizon, WBA-Walgreens, WFC-Wells Fargo, WMT-Walmart, XOM-Exxon Mobil</h4>
 </body>
 </html>
