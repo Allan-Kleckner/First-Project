@@ -16,16 +16,13 @@ var settings = {
 		"x-rapidapi-key": "de8ce92fe7mshac52192236134f6p16f83bjsn84aa9bfa8d10"
 	}}
 	$.ajax(settings).done(function (response) {
-		$("#close").text(response.prices.close)
-        $("#date").text(response.date)
-        $("#high").text(response.high)
-		$("#low").text(response.low)
-		$("#open").text(response.open)
+		$("#close").text(response.prices[0].close)
+        //$("#date").text(response.prices[0].date)
+        $("#high").text(response.prices[0].high)
+		$("#low").text(response.prices[0].low)
+		$("#open").text(response.prices[0].open)
 		console.log(tickerVal);
-		console.log(close, date, high, low, open);
+		console.log(response);
 	});
     
 }
-
-
-///////////////////////////////////////////////////////////////////////////////////////////
