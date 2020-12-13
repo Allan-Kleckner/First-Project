@@ -4,16 +4,23 @@ body{
     justify-content: center;
     align-items: center;
     font-family: helvetica;
-    background-color: lightseagreen;
+    background-color: rgb(200, 226, 139);
+    border: 5px solid oldlace;
+    margin: 10px 10px 10px 10px;
+
 }
 main{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    border: 15px solid oldlace;
+    margin: 25px 20px 25px 20px;
+
 }
 h1 {
     font-weight: bold;
     font-family: Arial, Helvetica, sans-serif;
-    color: oldlace;
+    color: rgb(5, 59, 7);
+    font-size: 50px;
 }
