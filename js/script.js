@@ -13,7 +13,7 @@ var settings = {
 	"method": "GET",
 	"headers": {
 		"x-rapidapi-host": "apidojo-yahoo-finance-v1.p.rapidapi.com",
-		"x-rapidapi-key": "de8ce92fe7mshac52192236134f6p16f83bjsn84aa9bfa8d10"
+		"x-rapidapi-key":   "de8ce92fe7mshac52192236134f6p16f83bjsn84aa9bfa8d10"
 	}}
 	$.ajax(settings).done(function (response) {
 		$("#close").text(response.prices[0].close)
